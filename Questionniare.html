@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <fieldset>
+    <legend style="text-align: center;">Feedback Form</legend>
+
+    <form action="post">
+        First Name: <input type="text" name="First name" maxlength="12"><br><br>
+        Last Name: <input type="text" name="Last name" maxlength="13"><br><br>
+        Age: <input type="number" name="Age" maxlength="2"><br><br><br>
+        Sex: <input type="radio" name="radio" Male> Male &nbsp; <input type="radio" name="radio" Female> Female &nbsp; <input type="radio" name="radio" Other> Other <br><br>
+        E-mail: <input type="email" name="email" maxlength="25"><br><br>
+
+        <label for="cars">How was our Services:</label>
+  <select name="Services" id="Services">
+    <option value="Best">Best</option>
+    <option value="Good">Good</option>
+    <option value="Fair">Fair</option>
+    <option value="Poor">Poor</option>
+  </select><br><br>
+        Submit: <input type="button" name="submit"> &nbsp; Clear: <input type="button" name="clear">
+
+    </form>
+</fieldset>
+</body>
+</html>
